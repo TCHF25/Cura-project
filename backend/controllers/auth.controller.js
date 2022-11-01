@@ -18,6 +18,7 @@ const login = async (req, res)=>{
     res.status(200).json(token)
 }
 
+
 const signup = async (req, res)=>{
     const {name, email, password} = req.body;
     try{
