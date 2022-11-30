@@ -5,10 +5,23 @@ import Feed from "./routes/Feed";
 import Register from "./routes/Register";
 import Login from "./routes/Login";
 import Home from "./routes/Home";
+import Network from "./routes/Network";
+import Preloader from "./components/Preloader";
+import NotFound from "./routes/Notfound";
 
 function App() {
   const [curPath, setCurPath] = useState(true);
- 
+  //page pre loader
+  document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+      document.querySelector(".Pagecontents").style.visibility = "hidden";
+      document.querySelector(".ppreloader").style.display = "unset";
+    } else {
+      document.querySelector(".ppreloader").style.display = "none";
+      document.querySelector(".Pagecontents").style.visibility = "visible";
+      document.querySelector(".Pagecontents").style.display = "unset";
+    }
+  };
   //home remove navbar
   const loc = useLocation();
   useEffect(() => {
@@ -38,7 +51,8 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/feed" element={<Feed />}></Route>
             <Route path="/" element={<Navigate to="/feed" />}></Route>
-            <Route path="/home" element={<Home />}></Route>     
+            <Route path="/home" element={<Home />}></Route> 
+            <Route path="/network" element={<Network />}></Route>    
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </div>
