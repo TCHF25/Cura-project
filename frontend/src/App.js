@@ -5,9 +5,10 @@ import Feed from "./routes/Feed";
 import Register from "./routes/Register";
 import Login from "./routes/Login";
 import Home from "./routes/Home";
-import Network from "./routes/Network";
+import Medication from "./routes/Medication";
 import Preloader from "./components/Preloader";
 import NotFound from "./routes/Notfound";
+
 
 function App() {
   const [curPath, setCurPath] = useState(true);
@@ -52,7 +53,7 @@ function App() {
             <Route path="/feed" element={<Feed />}></Route>
             <Route path="/" element={<Navigate to="/feed" />}></Route>
             <Route path="/home" element={<Home />}></Route> 
-            <Route path="/network" element={<Network />}></Route>    
+            <Route path="/medication" element={<Medication />}></Route>    
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </div>

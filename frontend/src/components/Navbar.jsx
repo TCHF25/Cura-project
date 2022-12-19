@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/css/navbar.css'
-
-import {  ReactComponent as NavLogo } from '../assets/svg/navlogo.svg'
+import {  ReactComponent as NavLogo } from '../assets/svg/navlogo2.svg'
 import { Link } from "react-router-dom"
 
 
@@ -11,9 +10,6 @@ const Navbar = () => {
         setActiveTab(page)
     }
  
-
-
-
   return (
     <div className="navbar">
         <div className="navcontainer">
@@ -29,23 +25,20 @@ const Navbar = () => {
                             <Link to="/feed" className={activeTab==='home'?"activeTab nav-link":"nav-link"} onClick={()=>{activePageTab('home')}} >                               
                                 <span className="nav-texts" style={{marginTop: "0px"}}>Home</span>
                             </Link>
-                            <Link to="/network" className={activeTab==='network'?"activeTab nav-link":"nav-link"} onClick={()=>{activePageTab('network')}}>                                
-                                <span className="nav-texts">My Network</span>
+                            <Link to="/medication" className={activeTab==='medication'?"activeTab nav-link":"nav-link"} onClick={()=>{activePageTab('medication')}}>                                
+                                <span className="nav-texts">Medication</span>
                             </Link>
-                            <Link to="/jobs" className={activeTab==='jobs'?"activeTab nav-link":"nav-link"} onClick={()=>{activePageTab('jobs')}}>                               
-                                <span className="nav-texts">Jobs</span>
+                            <Link to="/donation" className={activeTab==='donation'?"activeTab nav-link":"nav-link"} onClick={()=>{activePageTab('donation')}}>                               
+                                <span className="nav-texts">Donate</span>
                             </Link>
                             <Link to="/messaging" className={activeTab==='messaging'?"activeTab nav-link messaging-link-nav":"nav-link messaging-link-nav"} onClick={()=>{activePageTab('messaging')}}>                               
-                                <span className="nav-texts">Messaging</span>
+                                <span className="nav-texts">Sign In</span>
                             </Link>
                             <Link to="/notifications" className={activeTab==='notifications'?"activeTab nav-link notif-link-nav":"nav-link notif-link-nav"} onClick={()=>{activePageTab('notifications')}}>                               
-                                <span className="nav-texts">Notifications</span>
+                                <span className="nav-texts">Sign Up</span>
                             </Link>     
                         </div>
                     </div>
-                    
-
-
                 </div>
             </div>
         </div>
