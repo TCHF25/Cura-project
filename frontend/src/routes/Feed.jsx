@@ -100,6 +100,7 @@ const Feed = () => {
                     <div className='contact-us-title'>
                         <h1 className='contact-us-title'>CONTACT US</h1>
                     </div>
+                    <div className='line-separation-5'></div>
                     
 
                 </div>

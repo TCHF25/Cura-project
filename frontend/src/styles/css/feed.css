@@ -155,3 +155,11 @@
     margin-left: 7vh;
 }
 
+.line-separation-5 {
+    border-top: white;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 42vh;
+    margin-left: 14vh;
+}
+
