@@ -13,6 +13,18 @@
     margin-left: 5vh;
 }
 
+.part2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+}
+
+.cover-image-text {
+    margin-top: 12vh;
+    margin-left: 10%;
+}
+
 
 .cover2 {
     margin-top: 14vh;
@@ -21,11 +33,113 @@
 }
 
 .cover2-text-background {
-    font-size: 60px;
-    color: black;
+    font-size: 55px;
+    color: #05445E;
+    font-weight: 200;
+    text-align: left;   
+}
+
+.line-separation {
+    border-top: #05445E;
+    border-width: 0.5px;
+    border-style:solid;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.cover2-text-details {
+    color: #05445E;
     font-weight: 300;
-    text-align: left;
-    left: 100px;
-    margin-top: 14vh;
+    font-size: 20px;
     
 }
+
+.part3 {
+    background-color: #05445E;
+    height: 100vh;
+}
+
+.part3-title {
+    color: white;
+    font-size: 55px;
+    font-weight: 200;
+    padding-top: 4vh;
+    margin-left: 7vh;
+    
+}
+
+.line-separation-2 {
+    border-top: white;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 64vh;
+    margin-left: 14vh;
+}
+
+.part3-text {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 18vh;
+    padding: 6vh;
+}
+
+.client-testimonials {
+    height: 100vh;
+}
+
+.client-testimonials-title {
+    color: #05445E;
+    font-size: 55px;
+    font-weight: 200;
+    padding-top: 4vh;
+    margin-left: 7vh;
+}
+
+.line-separation-3 {
+    border-top: #05445E;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 50vh;
+    margin-left: 14vh;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30vh;
+    margin-top: 10vh;
+}
+
+.person {
+    padding: 10vh;
+    
+
+}
+
+.person-text {
+    color: #05445E;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+
+.line-separation-4 {
+    color: #05445E;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 30vh;
+    margin-top: 2vh;
+}
+
+.person-name {
+    color: #05445E;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 5vh;
+}
+
+
+
