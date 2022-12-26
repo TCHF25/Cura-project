@@ -87,7 +87,7 @@
 }
 
 .client-testimonials {
-    height: 100vh;
+    height: 120vh;
 }
 
 .client-testimonials-title {
@@ -144,6 +144,7 @@
 
 .contact-us {
     background-color: #05445E;
+    height: 120vh;
 }
 
 .contact-us-title {
