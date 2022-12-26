@@ -93,8 +93,14 @@ const Feed = () => {
                             <div className='person-name'>
                                     <h3 className='person-name'>- Tarek Charif</h3>
                             </div>
-                        </div>
+                        </div>    
                     </div>
+                </div>
+                <div className='contact-us'>        
+                    <div className='contact-us-title'>
+                        <h1 className='contact-us-title'>CONTACT US</h1>
+                    </div>
+                    
 
                 </div>
         </div> 
