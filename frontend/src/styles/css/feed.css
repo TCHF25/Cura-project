@@ -210,6 +210,8 @@
     border-bottom: #05445E;
     border-left: #05445E;
     border-right: #05445E;
+    display: flex;
+    flex-direction: row;
 
 }
 

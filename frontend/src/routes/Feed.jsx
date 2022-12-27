@@ -123,12 +123,32 @@ const Feed = () => {
                         <div className='ankle-text'>
                             <h2 className='ankle-text'>Transforming <br /> consumer healthcare</h2>
                         </div>
-
                     </div>
-
                     <div className='ankle-right'>
-
-
+                        <div className='top-part'>
+                            <div className='type'>
+                                <h3 className='service-bold'></h3>
+                                <h3 className='details-normal'></h3>
+                                <h3 className='details-normal'></h3>
+                            </div>
+                            <div className='type'>
+                                <h3 className='service-bold'></h3>
+                                <h3 className='details-normal'></h3>
+                                <h3 className='details-normal'></h3>
+                            </div>
+                        </div>
+                        <div className='bottom-part'>
+                            <div className='type'>
+                                <h3 className='service-bold'></h3>
+                                <h3 className='details-normal'></h3>
+                                <h3 className='details-normal'></h3>
+                            </div>
+                            <div className='type'>
+                                <h3 className='service-bold'></h3>
+                                <h3 className='details-normal'></h3>
+                                <h3 className='details-normal'></h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
         </div> 
