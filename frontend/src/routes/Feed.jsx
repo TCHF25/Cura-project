@@ -5,6 +5,7 @@ import {  ReactComponent as Cover3  } from '../assets/svg/cover3.svg'
 import {  ReactComponent as Testimonial1  } from '../assets/svg/test1.svg'
 import {  ReactComponent as Testimonial2  } from '../assets/svg/test2.svg'
 import {  ReactComponent as Testimonial3  } from '../assets/svg/test3.svg'
+import {  ReactComponent as Logo } from '../assets/svg/navlogo2.svg'
 import '../styles/css/feed.css'
 
 const Feed = () => {
@@ -115,11 +116,17 @@ const Feed = () => {
                     </div>
                 </div>
                 <div className='ankle'>
-                    <div className='ankle-logo'>
+                    <div className='ankle-left'>  
+                        <div className="ankle-logo">
+                             <Logo className="logo"/>
+                        </div> 
 
                     </div>
-                    
 
+                    <div className='ankle-right'>
+
+
+                    </div>
                 </div>
         </div> 
          
