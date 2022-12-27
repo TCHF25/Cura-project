@@ -117,9 +117,12 @@ const Feed = () => {
                 </div>
                 <div className='ankle'>
                     <div className='ankle-left'>  
-                        <div className="ankle-logo">
-                             <Logo className="logo"/>
+                        <div className='ankle-logo' >
+                             <Logo className="ankle-logo"/>
                         </div> 
+                        <div className='ankle-text'>
+                            <h2 className='ankle-text'>Transforming <br /> consumer healthcare</h2>
+                        </div>
 
                     </div>
 
