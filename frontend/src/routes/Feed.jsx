@@ -107,12 +107,19 @@ const Feed = () => {
                             <h3 className='location'>Cura</h3>
                             <h3 className='location'>Cura</h3>
                         </div>
-                        <div className='virtual'>
-                            <h3 className='virtual'>Cura</h3>
-                            <h3 className='virtual'>Cura</h3>
-                            <h3 className='virtual'>Cura</h3>
+                        <div className='virtual-box'>
+                            <h3 className='location'>Cura</h3>
+                            <h3 className='location'>Cura</h3>
+                            <h3 className='location'>Cura</h3>
                         </div>
                     </div>
+                </div>
+                <div className='ankle'>
+                    <div className='ankle-logo'>
+
+                    </div>
+                    
+
                 </div>
         </div> 
          

@@ -144,7 +144,7 @@
 
 .contact-us {
     background-color: #05445E;
-    height: 120vh;
+    height: 90vh;
 }
 
 .contact-us-title {
@@ -177,11 +177,39 @@
     border-style: solid;
     width: 30vh;
     margin-left: 14vh;
+    margin-top: 40vh;
 }
+
 
 .location {
     color: white;
     font-size: 20px;
     font-weight: 300;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
 }
+
+.virtual-box {
+    border-top: #05445E;
+    border-right: #05445E;
+    border-left: #05445E;
+    border-bottom: white;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 30vh;
+    margin-left: 30vh;
+    margin-top: 40vh;
+}
+
+
+.ankle {
+    height: 100vh;
+    background-color: #05445E;
+    border-top: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: #05445E;
+    border-left: #05445E;
+    border-right: #05445E;
+
+}
+
