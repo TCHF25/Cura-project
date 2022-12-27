@@ -163,3 +163,25 @@
     margin-left: 14vh;
 }
 
+.address {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-box {
+    border-top: #05445E;
+    border-right: #05445E;
+    border-left: #05445E;
+    border-bottom: white;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 30vh;
+    margin-left: 14vh;
+}
+
+.location {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 2vh;
+}

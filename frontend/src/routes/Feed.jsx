@@ -101,8 +101,18 @@ const Feed = () => {
                         <h1 className='contact-us-title'>CONTACT US</h1>
                     </div>
                     <div className='line-separation-5'></div>
-                    
-
+                    <div className='address'>
+                        <div className='location-box'>
+                            <h3 className='location'>Cura</h3>
+                            <h3 className='location'>Cura</h3>
+                            <h3 className='location'>Cura</h3>
+                        </div>
+                        <div className='virtual'>
+                            <h3 className='virtual'>Cura</h3>
+                            <h3 className='virtual'>Cura</h3>
+                            <h3 className='virtual'>Cura</h3>
+                        </div>
+                    </div>
                 </div>
         </div> 
          
