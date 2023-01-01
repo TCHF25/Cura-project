@@ -32,10 +32,10 @@ const Navbar = () => {
                                 <span className="nav-texts">Donate</span>
                             </Link>
                             <Link to="/messaging" className={activeTab==='messaging'?"activeTab nav-link messaging-link-nav":"nav-link messaging-link-nav"} onClick={()=>{activePageTab('messaging')}}>                               
-                                <span className="nav-texts">Sign In</span>
+                                <span className="nav-texts">Profile</span>
                             </Link>
                             <Link to="/notifications" className={activeTab==='notifications'?"activeTab nav-link notif-link-nav":"nav-link notif-link-nav"} onClick={()=>{activePageTab('notifications')}}>                               
-                                <span className="nav-texts">Sign Up</span>
+                                <span className="nav-texts">Contact Us</span>
                             </Link>     
                         </div>
                     </div>

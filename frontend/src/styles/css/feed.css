@@ -1,3 +1,8 @@
+.cover {
+    width: 100%;
+}
+
+
 .cover-text-background {
     font-size: 60px;
     color: white;
@@ -291,4 +296,16 @@ footer {
     
 }
 
+
+@media (max-width: 1375px) {
+    .cover {
+        width: 220vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cover {
+        width: 220vh;
+    }
+}
 

@@ -105,13 +105,12 @@ const Feed = () => {
                     <div className='address'>
                         <div className='location-box'>
                             <h3 className='location'>Cura</h3>
-                            <h3 className='location'>Cura</h3>
-                            <h3 className='location'>Cura</h3>
+                            <h3 className='location'>Beirut, Lebanon</h3>
+                            <h3 className='location'>Corniche el Mazraa</h3>
                         </div>
                         <div className='virtual-box'>
-                            <h3 className='location'>Cura</h3>
-                            <h3 className='location'>Cura</h3>
-                            <h3 className='location'>Cura</h3>
+                            <h3 className='location'>Tel: 01705807</h3>
+                            <h3 className='location'>Email: Support@cura.com</h3>
                         </div>
                     </div>
                 </div>
