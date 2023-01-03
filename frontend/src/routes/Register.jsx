@@ -11,7 +11,8 @@ const Register = () => {
          
         </nav>
         <form className="signup-form">
-          <div className="form-groupa">
+
+          <div className="form-group">
             <label className="form-label" id="email" htmlFor="email">
               Email
             </label>
@@ -22,7 +23,8 @@ const Register = () => {
               id="email"
             />
           </div>
-          <div className="form-groupa">
+
+          <div className="form-group">
             <label className="form-label" id="password" htmlFor="password">
               Password (6 or more characters)
             </label>
@@ -33,18 +35,19 @@ const Register = () => {
               id="password"
             />
           </div>
+
           <div className="form-footer">
             <p className="sitePolicyText">
-              By clicking Agree & Join, you agree to the LinkedIn
+              By clicking Agree & Join, you agree to the Cura
               <Link to="/agreement">User Agreement, Privacy Policy</Link> , and
               <Link to="/cookie-policy">Cookie Policy.</Link>
             </p>
-
             <button className="formSubmitBtn">Agree & Join</button>
             <p className="signInRedirect">
-              Already on LinkedIn? <Link to="/login">Sign in</Link>
+              Already on Cura? <Link to="/login">Sign in</Link>
             </p>
           </div>
+
         </form>
       </div>
     </div>
