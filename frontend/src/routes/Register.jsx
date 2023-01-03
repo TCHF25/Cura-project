@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ReactComponent as NavBrand } from "../assets/svg/navlogo2.svg";
 import "../styles/css/auth.css";
 
 
@@ -11,6 +12,9 @@ const Register = () => {
           <form className="signup-form">
 
             <div className="form-group">
+              <span className="navLogo">
+                <NavBrand className="logo" />
+              </span>
               <label className="form-label" id="email" htmlFor="email">
                 Email
               </label>

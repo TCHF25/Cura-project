@@ -28,7 +28,7 @@ const Login = () => {
     }
   }, [email, password]);
 
-  
+
   return (
     <div className="signup-section sign-in-section">
       <div className="signup-wrapper signin-wrapper">
@@ -89,7 +89,7 @@ const Login = () => {
           </div>
         </form>
         <p className="signInRedirect signUpRedirect">
-          New to LinkedIn? <Link to="/register">Join now</Link>
+          New to Cura? <Link to="/register">Join now</Link>
         </p>
       </div>
       
