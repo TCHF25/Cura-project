@@ -1,16 +1,32 @@
-body {
-  background-color: #05445E;
+* {
+  box-sizing: border-box;
 }
 
+
+body {
+  background-color: #05445E 
+}
+
+.parent {
+  position: relative;
+  margin: 20px;
+}
 
 .signup-section {
   background-color: white;
   width: 300px;
   height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  border-radius: 10px;
+}
+
+.signup-wrapper {
+  background-color: #37B9D3;
+  height: 65vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 
