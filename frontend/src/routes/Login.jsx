@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ReactComponent as NavBrand } from "../assets/svg/navlogo2.svg";
+import { ReactComponent as NavBrand } from "../assets/svg/Landing-Home-Logo.svg";
 import { Link } from "react-router-dom";
 import "../styles/css/auth.css";
 
@@ -27,8 +27,6 @@ const Login = () => {
       setFocusPassword(false);
     }
   }, [email, password]);
-
-
   return (
     <div className="signup-section sign-in-section">
       <div className="signup-wrapper signin-wrapper">
@@ -89,7 +87,7 @@ const Login = () => {
           </div>
         </form>
         <p className="signInRedirect signUpRedirect">
-          New to Cura? <Link to="/register">Join now</Link>
+          New to LinkedIn? <Link to="/register">Join now</Link>
         </p>
       </div>
       

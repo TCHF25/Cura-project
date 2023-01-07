@@ -35,7 +35,7 @@ const Navbar = () => {
                                 <span className="nav-texts">Profile</span>
                             </Link>
                             <Link to="/notifications" className={activeTab==='notifications'?"activeTab nav-link notif-link-nav":"nav-link notif-link-nav"} onClick={()=>{activePageTab('notifications')}}>                               
-                                <span className="nav-texts">Contact Us</span>
+                                <span className="nav-texts">Contact</span>
                             </Link>     
                         </div>
                     </div>
