@@ -16,9 +16,9 @@ function App() {
   document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
       document.querySelector(".Pagecontents").style.visibility = "hidden";
-      document.querySelector(".ppreloader").style.display = "unset";
+      document.querySelector(".preloader").style.display = "unset";
     } else {
-      document.querySelector(".ppreloader").style.display = "none";
+      document.querySelector(".preloader").style.display = "none";
       document.querySelector(".Pagecontents").style.visibility = "visible";
       document.querySelector(".Pagecontents").style.display = "unset";
     }
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="ppreloader">
+      <div className="preloader">
         <Preloader />
       </div>
       <div className="Pagecontents">

@@ -3,6 +3,7 @@ import { ReactComponent as NavBrand } from "../assets/svg/Landing-Home-Logo.svg"
 import { Link } from "react-router-dom";
 import "../styles/css/auth.css";
 
+
 const Login = () => {
   const [focusEmail, setFocusEmail] = useState(false);
   const [focusPassword, setFocusPassword] = useState(false);
@@ -11,10 +12,12 @@ const Login = () => {
     email: "",
     password: "",
   });
+  
   const { email, password } = user;
   const onChangeHandler = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
+
   useEffect(() => {
     if (email) {
       setFocusEmail(true);
@@ -27,6 +30,8 @@ const Login = () => {
       setFocusPassword(false);
     }
   }, [email, password]);
+
+
   return (
     <div className="signup-section sign-in-section">
       <div className="signup-wrapper signin-wrapper">
