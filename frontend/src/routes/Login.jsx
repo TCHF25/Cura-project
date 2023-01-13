@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ReactComponent as NavBrand } from "../assets/svg/Landing-Home-Logo.svg";
+import { ReactComponent as NavBrand } from "../assets/svg/navlogo2.svg";
 import { Link } from "react-router-dom";
 import "../styles/css/auth.css";
 
