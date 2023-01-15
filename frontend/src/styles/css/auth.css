@@ -150,7 +150,7 @@
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .sitePolicyText a {
-    color: var(--color-brand);
+    color: #37B9D3;
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .sitePolicyText a:hover {
@@ -163,7 +163,7 @@
     padding: 15px 20px;
     font-weight: 600;
     color: #fff;
-    background: var(--color-brand);
+    background: #37B9D3;
     border: none;
     outline: none;
     border-radius: 25px;
@@ -177,7 +177,7 @@
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .formSubmitBtn:hover, .signup-section .signup-wrapper .signup-form .form-footer .formSubmitBtn:focus {
-    background: #0c5196;
+    background: #06acce;
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .divider {
@@ -238,17 +238,17 @@
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .signInRedirect a {
-    color: var(--color-brand);
+    color: #37B9D3;
     font-weight: 600;
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .signInRedirect a:hover {
     text-decoration: underline;
-    color: #4917ff;
+    color: #37B9D3;
   }
   
   .signup-section .signup-wrapper .signup-form .form-footer .resetRedirect {
-    color: #0c5196;
+    color: #37B9D3;
     font-size: 15px;
     padding: 5px 10px;
     background: transparent;
@@ -268,7 +268,7 @@
   }
   
   .signup-section .signup-wrapper .signUpRedirect a {
-    color: #0c5196;
+    color: #37B9D3;
     font-size: 15px;
     padding: 5px 10px;
     background: transparent;

@@ -37,7 +37,7 @@ const Register = () => {
           </div>
           <div className="form-footer">
             <p className="sitePolicyText">
-              By clicking Agree & Join, you agree to the LinkedIn
+              By clicking Agree & Join, you agree to the Cura
               <Link to="/agreement">User Agreement, Privacy Policy</Link> , and
               <Link to="/cookie-policy">Cookie Policy.</Link>
             </p>
