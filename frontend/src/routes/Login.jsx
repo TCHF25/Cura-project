@@ -45,16 +45,14 @@ const Login = () => {
           <div className="form-header">
             <h1 className="authTitle">Sign in</h1>
             <h4 className="textMuted">
-              Stay updated on your professional world
+              Get your cheapest medication with us.
             </h4>
           </div>
           <div className="form-groupa form-groupasn">
             <label
               className={focusEmail ? "form-label active" : "form-label"}
               id="email"
-              htmlFor="email"
-              
-            >
+              htmlFor="email">
               Email or phone
             </label>
             <input
@@ -66,13 +64,12 @@ const Login = () => {
               onChange={(e) => onChangeHandler(e)}
             />
           </div>
+
           <div className="form-groupa form-groupasn">
             <label
               className={focusPassword ? "form-label active" : "form-label"}
               id="password"
-              htmlFor="password"
-              
-            >
+              htmlFor="password">
               Password
             </label>
             <input
@@ -81,9 +78,9 @@ const Login = () => {
               name="password"
               value={password}
               id="password"
-              onChange={(e) => onChangeHandler(e)}
-            />
+              onChange={(e) => onChangeHandler(e)}/>
           </div>
+
           <div className="form-footer">
             <Link to="/reset-password" className="resetRedirect">
               Forgot Password
@@ -94,8 +91,7 @@ const Login = () => {
         <p className="signInRedirect signUpRedirect">
           New to Cura? <Link to="/register">Join now</Link>
         </p>
-      </div>
-      
+      </div>     
     </div>
   );
 };

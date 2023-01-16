@@ -7,7 +7,7 @@ import {  ReactComponent as Testimonial2  } from '../assets/svg/test2.svg'
 import {  ReactComponent as Testimonial3  } from '../assets/svg/test3.svg'
 import {  ReactComponent as Logo } from '../assets/svg/navlogo2.svg'
 import '../styles/css/feed.css'
-
+                          
 const Feed = () => {
     return (
         <div>

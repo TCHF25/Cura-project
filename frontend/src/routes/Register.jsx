@@ -14,6 +14,7 @@ const Register = () => {
         </nav>
         <form className="signup-form">
           <div className="form-groupa">
+            <h1 className="authTitle">Sign up</h1>
             <label className="form-label" id="email" htmlFor="email">
               Email
             </label>
