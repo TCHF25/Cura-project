@@ -8,8 +8,9 @@ const Medication = () => {
             <div> 
                 <Medication1 className='med-cover1'/>  
                 <div>
-                        <h1 className='part1-title'>MEDICATION</h1>
+                    <h1 className='part1-title'>MEDICATION</h1>
                 </div>
+                
             </div>
             
         </div>

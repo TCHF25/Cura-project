@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Feed from "./routes/Feed";
 import Register from "./routes/Register";
@@ -57,6 +58,7 @@ function App() {
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </div>
+       <Footer />
       </div>
     </div>
   );
