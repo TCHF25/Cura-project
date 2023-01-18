@@ -10,7 +10,11 @@ const Medication = () => {
                 <div>
                     <h1 className='part1-title'>MEDICATION</h1>
                 </div>
-                
+                <div>
+                    <div className='search-bar'>
+
+                    </div>
+                </div>
             </div>
             
         </div>
