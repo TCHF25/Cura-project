@@ -3,7 +3,9 @@
     margin: 0;
   }
 
-
+.header {
+    margin-bottom: 20vh;
+}
 .med-cover1 {
     width: 100%;
 }

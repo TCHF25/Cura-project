@@ -5,7 +5,7 @@ import '../styles/css/medication.css'
 const Medication = () => {
     return (
         <div>
-            <div> 
+            <div className='header'> 
                 <Medication1 className='med-cover1'/>  
                 <div>
                     <h1 className='part1-title'>MEDICATION</h1>
@@ -14,6 +14,30 @@ const Medication = () => {
                     <div className='search-bar'>
 
                     </div>
+                </div>
+            </div>
+            <div className='medication-choice'>
+                <div className='menu'>
+                    <div className='menu-title'>
+                        <h3>All Medications</h3>
+                    </div>
+                    <div className='menu-details'>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>
+                        <button className=''>Diabetes medications</button>         
+                    </div>
+                </div>
+                <div className='med-details'>
+
                 </div>
             </div>
             
