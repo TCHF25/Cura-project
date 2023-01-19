@@ -1,6 +1,7 @@
 import React from 'react'
 import {  ReactComponent as Medication1 } from '../assets/svg/medication1.svg'
 import '../styles/css/medication.css'
+import { Link } from "react-router-dom"
 
 const Medication = () => {
     return (
@@ -37,7 +38,84 @@ const Medication = () => {
                     </div>
                 </div>
                 <div className='med-showcase'>
-
+                    <Link to="/messaging" className='square' >
+                        <div className='container'>
+                                <div className='inside generic-name'>
+                                    Adol
+                                </div>
+                                <div className='inside original-name'>
+                                    Panadol
+                                </div>
+                                <div className='inside price'>
+                                    20.00$
+                                </div>
+                        </div>
+                    </Link>
+                    <div className='square'>
+                        <div className='container'>
+                                <div className='inside generic-name'>
+                                    Adol
+                                </div>
+                                <div className='inside original-name'>
+                                    Panadol
+                                </div>
+                                <div className='inside price'>
+                                    20.00$
+                                </div>
+                        </div>
+                    </div>
+                    <div className='square'>
+                        <div className='container'>
+                                <div className='inside generic-name'>
+                                    Adol
+                                </div>
+                                <div className='inside original-name'>
+                                    Panadol
+                                </div>
+                                <div className='inside price'>
+                                    20.00$
+                                </div>
+                        </div>
+                    </div>
+                    <div className='square'>
+                        <div className='container'>
+                                <div className='inside generic-name'>
+                                    Adol
+                                </div>
+                                <div className='inside original-name'>
+                                    Panadol
+                                </div>
+                                <div className='inside price'>
+                                    20.00$
+                                </div>
+                        </div>
+                    </div>
+                    <div className='square'>
+                        <div className='container'>
+                                <div className='inside generic-name'>
+                                    Adol
+                                </div>
+                                <div className='inside original-name'>
+                                    Panadol
+                                </div>
+                                <div className='inside price'>
+                                    20.00$
+                                </div>
+                        </div>
+                    </div>
+                    <div className='square'>
+                        <div className='container'>
+                                <div className='inside generic-name'>
+                                    Adol
+                                </div>
+                                <div className='inside original-name'>
+                                    Panadol
+                                </div>
+                                <div className='inside price'>
+                                    20.00$
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             

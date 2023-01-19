@@ -12,7 +12,6 @@
     width: 100%;
 }
 
-
 .part1-title {
     font-size: 60px;
     color: white;
@@ -28,18 +27,16 @@
     
 }
 
-
 .medication-choice {
     padding-left: 13vh;
     padding-right: 6vh;
+    display: inline-flex;
 }
-
 
 .menu {
     margin-bottom: 20vh;
 
 }
-
 
 .menu-title {
     color: #05445E;
@@ -56,7 +53,6 @@
     
 }
 
-
 .meds {
     margin-bottom: 2vh;
     border: none;
@@ -69,3 +65,39 @@
     color: #c74b0e;
     cursor: pointer;
 }
+
+
+.med-showcase {
+    margin-left: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    background-color: #05445E;
+    border-radius: 10px;
+    width: 35vh;
+    height: 25vh;
+    margin-right: 8vh;
+    margin-bottom: 5vh;
+}
+
+.inside {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.price {
+    margin-top: 10vh; 
+}
+
+.original-name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
