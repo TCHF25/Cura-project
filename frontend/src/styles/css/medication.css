@@ -3,12 +3,15 @@
     margin: 0;
   }
 
+
 .header {
     margin-bottom: 20vh;
 }
+
 .med-cover1 {
     width: 100%;
 }
+
 
 .part1-title {
     font-size: 60px;
@@ -25,3 +28,44 @@
     
 }
 
+
+.medication-choice {
+    padding-left: 13vh;
+    padding-right: 6vh;
+}
+
+
+.menu {
+    margin-bottom: 20vh;
+
+}
+
+
+.menu-title {
+    color: #05445E;
+    margin-bottom: 3vh;
+    font-size: 25px;
+}
+
+.menu-details {
+    color: #05445E;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    width: 20vh;
+    
+}
+
+
+.meds {
+    margin-bottom: 2vh;
+    border: none;
+    text-align: start;
+    font-size: 15px;
+    
+}
+
+.meds:hover {
+    color: #c74b0e;
+    cursor: pointer;
+}

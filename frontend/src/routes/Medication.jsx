@@ -22,21 +22,21 @@ const Medication = () => {
                         <h3>All Medications</h3>
                     </div>
                     <div className='menu-details'>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>
-                        <button className=''>Diabetes medications</button>         
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                        <button className='meds'>Diabetes medications</button>
+                                
                     </div>
                 </div>
-                <div className='med-details'>
+                <div className='med-showcase'>
 
                 </div>
             </div>
