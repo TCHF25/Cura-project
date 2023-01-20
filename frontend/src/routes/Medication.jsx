@@ -38,7 +38,7 @@ const Medication = () => {
                     </div>
                 </div>
                 <div className='med-showcase'>
-                    <Link to="/messaging" className='square' >
+                    <Link to="/brief" className='square' >
                         <div className='container'>
                                 <div className='inside generic-name'>
                                     Adol
