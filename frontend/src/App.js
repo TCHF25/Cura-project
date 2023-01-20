@@ -55,7 +55,8 @@ function App() {
             <Route path="/" element={<Navigate to="/feed" />}></Route>
             <Route path="/home" element={<Home />}></Route> 
             <Route path="/medication" element={<Medication />}></Route>    
-            <Route path="*" element={<NotFound />}></Route>
+            <Route path="/brief" element={<Brief />}></Route>
+            <Route path="*" element={<NotFound />}></Route>        
           </Routes>
         </div>
        <Footer />
