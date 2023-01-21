@@ -1,0 +1,84 @@
+.head {
+    background-color: #05445E;
+}
+
+.med-info {
+    width: 80%;
+    background-color: #05445E;
+    height: 15vh;
+    margin-left: 20vh;
+    margin-top: -40vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    
+}
+
+.med-info-type {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    height: 50%;
+    text-align:center;
+
+}
+
+.med-info-forms {
+    margin-left: 3%;
+    font-weight: 300;
+    padding: 5px;
+
+}
+
+.med-info-prices {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 3%;
+    font-weight: 200;
+    padding: 5px 0;
+}
+
+.med-info-result {
+    margin-left: 3%;
+    font-weight: 300;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.med-brief {
+    background-color: #05445E;
+    
+}
+
+.med-brief-container {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding: 20vh;
+    color: white;
+}
+
+.med-brief-title {
+    margin-bottom: 10vh;
+    font-weight: 400;
+}
+
+.med-brief-details {
+    font-weight: 400;
+
+}
+
+
