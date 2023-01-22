@@ -14,13 +14,16 @@ const Brief = () => {
 
                 <div className='med-info'>
                     <div className='med-info-type'>
+                        <div className='empty-space'></div>
                         <h3 className='med-info-forms'>Form</h3>
                         <h3 className='med-info-forms'>Retail Price</h3>
                         <h3 className='med-info-forms'>Our Price</h3>
                         <h3 className='med-info-forms'>Savings</h3>
                     </div>
                     <div className='med-info-prices'>
-                        <h3 className='med-info-result'>Paracetamol</h3>
+                        <div className='generic-original'>
+                            <h3 className='med-info-result'>Paracetamol (Panadol)</h3>
+                        </div>
                         <h3 className='med-info-result'>Tablet</h3>
                         <h3 className='med-info-result'>$30.00</h3>
                         <h3 className='med-info-result'>$25.00</h3>
