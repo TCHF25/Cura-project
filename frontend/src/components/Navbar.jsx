@@ -31,10 +31,10 @@ const Navbar = () => {
                             <Link to="/donation" className={activeTab==='donation'?"activeTab nav-link":"nav-link"} onClick={()=>{activePageTab('donation')}}>                               
                                 <span className="nav-texts">Donate</span>
                             </Link>
-                            <Link to="/messaging" className={activeTab==='messaging'?"activeTab nav-link messaging-link-nav":"nav-link messaging-link-nav"} onClick={()=>{activePageTab('messaging')}}>                               
+                            <Link to="/profile" className={activeTab==='profile'?"activeTab nav-link messaging-link-nav":"nav-link messaging-link-nav"} onClick={()=>{activePageTab('profile')}}>                               
                                 <span className="nav-texts">Profile</span>
                             </Link>
-                            <Link to="/notifications" className={activeTab==='notifications'?"activeTab nav-link notif-link-nav":"nav-link notif-link-nav"} onClick={()=>{activePageTab('notifications')}}>                               
+                            <Link to="/contact" className={activeTab==='contact'?"activeTab nav-link notif-link-nav":"nav-link notif-link-nav"} onClick={()=>{activePageTab('contact')}}>                               
                                 <span className="nav-texts">Contact</span>
                             </Link>     
                         </div>

@@ -8,6 +8,7 @@ import Login from "./routes/Login";
 import Home from "./routes/Home";
 import Medication from "./routes/Medication";
 import Brief from "./routes/Brief";
+import Profile from "./routes/Profile";
 import Preloader from "./components/Preloader";
 import NotFound from "./routes/Notfound";
 
