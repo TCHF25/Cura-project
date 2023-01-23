@@ -1,0 +1,11 @@
+.health-cover {
+    width: 100%;
+}
+
+.health-profile-title {
+    color: #05445E;
+    font-size: 55px;
+    font-weight: 200;
+    padding-top: 4vh;
+    margin-left: 7vh;
+}

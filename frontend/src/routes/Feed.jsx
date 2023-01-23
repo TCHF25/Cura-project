@@ -11,9 +11,9 @@ const Feed = () => {
     return (
         <div>
                 <div> 
-                <Cover className='cover'/>    
+                    <Cover className='cover'/>    
                     <h1 className='cover-text-background'>
-                     Making Medication <br /> Accessible For Everyone
+                        Making Medication <br /> Accessible For Everyone
                     </h1>
                 </div>
 
