@@ -7,6 +7,11 @@
     width: 100%;
 }
 
+.health-inputs {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10vh;
+}
 
 .health-profile-title {
     color: #05445E;
@@ -43,3 +48,14 @@
     color: #05445E;
     opacity: 100%;
 }
+
+.contained {
+    background-color: #D4F1F4;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 4vh;
+    margin-right: 10vh;
+}
+

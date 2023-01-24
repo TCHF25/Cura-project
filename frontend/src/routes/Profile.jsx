@@ -16,18 +16,21 @@ const Profile = () => {
                         <div className="health-inputs">
                             <div className="left-part">
                                 <div className="full-name">
-                                    <input type="text" />
+                                    <input type="text"  className="contained"/>
                                 </div>
-                                <div className="email">
-                                    <input type="text" />
+                                <div className="full-name">
+                                    <input type="text"  className="contained"/>
                                 </div>
-                                <div className="date-of-birth">
-                                    <input type="date" />
+                                <div className="full-name">
+                                    <input type="date"  className="contained"/>
                                 </div>
                             </div>
                             <div className="right-part">
-                                <div className="email">
-                                    <input type="text" />
+                                <div className="condition">
+                                    <input type="text"  className="contained"/>
+                                </div>
+                                <div className="gender">
+                                    <input type="text" className="contained"/>
                                 </div>
                             </div>
                         </div>
