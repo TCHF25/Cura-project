@@ -6,12 +6,12 @@ const Profile = () => {
     return (
         <div>
             <div>
-                <div>
+                <div className="health-container">
                     <Health className="health-cover"/>
                     <h1 className='health-profile-title'>HEALTH PROFILE</h1>
                     <div className="general-infos">
                         <div>
-                            <h1>General Information</h1>
+                            <h1 className="general-infos-title">General Information</h1>
                         </div>
                         <div className="health-inputs">
                             <div className="left-part">
@@ -26,7 +26,9 @@ const Profile = () => {
                                 </div>
                             </div>
                             <div className="right-part">
-
+                                <div className="email">
+                                    <input type="text" />
+                                </div>
                             </div>
                         </div>
                     </div>

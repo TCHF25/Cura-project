@@ -7,7 +7,7 @@ import {  ReactComponent as Logo } from '../assets/svg/navlogo2.svg'
 const Footer = () => {
     
   return (
-            <div>
+            <div className='full-footer'>
                 <div className='ankle'>
                     <div className='ankle-left'>  
                         <div className='ankle-logo' >

@@ -1,7 +1,12 @@
-.health-cover {
-    width: 100%;
+.health-container {
     position: relative;
 }
+
+
+.health-cover {
+    width: 100%;
+}
+
 
 .health-profile-title {
     color: #05445E;
@@ -24,12 +29,17 @@
 }
 
 .general-infos {
-    background-color: black;
+    background-color: white;
+    opacity: 80%;
+    margin-top: -50%;
+    width: 80%;
+    height: 50%;
+    padding: 5vh;
+    margin-left: 8%;
     position: absolute;
-    
-    
+}
 
-    
-
-    
+.general-infos-title {
+    color: #05445E;
+    opacity: 100%;
 }
