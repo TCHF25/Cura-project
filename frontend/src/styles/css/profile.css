@@ -57,5 +57,7 @@
     height: 30px;
     margin-bottom: 4vh;
     margin-right: 10vh;
+    padding-left: 2vh;
+    cursor: pointer;
 }
 
