@@ -1,0 +1,24 @@
+.donation-container {
+    height: 800px;
+    background-color: #05445E;
+    
+}
+
+.left-part {
+    width: 50%;
+    float: left;
+}
+
+.donation-part {
+    width: 50%;
+    float: right;
+}
+
+.donation-cart {
+    width: 60%;
+    background-color: #F4F1EC;
+    height: 500px;
+    margin-top: 20%;
+    margin-left: 10%;
+    padding: 50px;
+}
