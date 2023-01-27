@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/css/footer.css'
+import { Link } from "react-router-dom"
 import {  ReactComponent as Logo } from '../assets/svg/navlogo2.svg'
 
 
@@ -21,8 +22,8 @@ const Footer = () => {
                         <div className='top-part'>
                             <div className='type'>
                                 <h3 className='service-bold'>Services</h3>
-                                <button className='details-normal-btn'>Medications</button>
-                                <button className='details-normal-btn'>Donations</button>
+                                <Link className='details-normal-btn'>Medications</Link>
+                                <Link className='details-normal-btn'>Donations</Link>
                             </div>
                             <div className='type'>
                                 <h3 className='service-bold'>Company</h3>
