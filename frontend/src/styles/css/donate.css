@@ -46,6 +46,7 @@
 
 .donate-btn:hover {
     background-color: #ebfcff;
+    cursor: pointer;
 }
 
 .donation-amount-title {
@@ -77,6 +78,11 @@
     text-align: center;
     margin-bottom: 5%;
 
+}
+
+.amount-rectangle:hover {
+    background-color: #ebfcff;
+    cursor: pointer;
 }
 
 
