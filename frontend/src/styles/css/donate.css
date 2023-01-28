@@ -34,7 +34,6 @@
     border-radius: 5px;
     width: 40%;
     height: 35px;
-    
     border-style: none;
     font-size: 17px;
     font-weight: bold;
@@ -48,6 +47,39 @@
 .donate-btn:hover {
     background-color: #ebfcff;
 }
+
+.donation-amount-title {
+    font-size: 15px;
+    font-weight: bold;
+    color:#05445E;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+.donation-amount-rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.amount-rectangle {
+    background-color: #D4F1F4;
+    width: 25%;
+    height: 35px;
+    color:#05445E;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1%;
+    padding-top: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+
 
 
 
