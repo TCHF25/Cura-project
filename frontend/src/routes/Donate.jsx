@@ -55,7 +55,7 @@ const Donate = () => {
                                 <h2>Enter Donation Amount</h2>
                             </div>
                             <div className="enter-amount-input">
-                                <input type="text" name="amount" value="Amount"></input>
+                                <input className="enter-amount-input" type="text" name="amount" value="Amount"></input>
                             </div>
                         </div>
                         <div className="currency">
@@ -63,7 +63,7 @@ const Donate = () => {
                                 <h2>Currency</h2>
                             </div>
                             <div className="amount-rectangle">
-                                <h3>Other</h3>
+                                <h3>USD</h3>
                             </div>
                         </div>
                     </div>
@@ -92,11 +92,10 @@ const Donate = () => {
                                     <div className="full-name">
                                         <input type="text"  className="contained"/>
                                     </div>
-                        </div>     
+                        </div> 
+                        <button className="contact-details-btn">Proceed to donate</button>    
                     </div>
-                    <div className="contact-details-right"></div>
                 </div>
-
             </div>
         </div>
 

@@ -55,8 +55,19 @@
     color:#05445E;
     margin-top: 5%;
     margin-bottom: 5%;
+}
 
-
+.enter-amount-input {
+    background-color: #D4F1F4;
+    width: 100%;
+    height: 35px;
+    color:#05445E;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    text-align: start;
 }
 
 .donation-amount-rectangles {
@@ -92,7 +103,7 @@
 
 .contact-details-container {
     position: absolute;
-    margin-top: -40%;
+    margin-top: -50%;
     margin-left: 10%;
 }
 
