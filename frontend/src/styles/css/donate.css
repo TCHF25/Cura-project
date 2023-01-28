@@ -1,8 +1,8 @@
 .donation-container {
     height: 800px;
-    background-color: #05445E;
-    
+    background-color: #05445E;   
 }
+
 
 .left-part {
     width: 50%;
@@ -22,3 +22,57 @@
     margin-left: 10%;
     padding: 50px;
 }
+
+.now-monthly {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.donate-btn {
+    background-color: #D4F1F4;
+    color:#05445E;
+    border-radius: 5px;
+    width: 40%;
+    height: 35px;
+    
+    border-style: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.empty-space-btn {
+    width: 20%;
+}
+
+.donate-btn:hover {
+    background-color: #ebfcff;
+}
+
+
+
+
+
+
+
+
+
+.left-part-container {
+    margin-top: 20%;
+    margin-left: 10%;
+    padding: 5%;
+}
+
+.left-space-title {
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+
+}
+
+.left-space-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+

@@ -7,19 +7,22 @@ const Donate = () => {
         <div>
             <div className="donation-container">
                 <div className="left-part">
-                    <div className="left-space-title">
-                        <h1>blabla</h1>
-                    </div>
-                    <div className="left-space-text">
-                        <h1>bjdbkje</h1>
+                    <div className="left-part-container">
+                        <div className="left-space-title">
+                            <h1 className="left-space-title">Donate Now</h1>
+                        </div>
+                        <div className="left-space-text">
+                            <h3 className="left-space-text">By supporting of people like you <br/> we can proceed to provide others with affordable medication.</h3>
+                        </div>
                     </div>
                 </div>
 
                 <div className="donation-part">
                     <div className="donation-cart">
                         <div className="now-monthly">
-                            <button>Donate Now</button>
-                            <button>Monthly Donation</button>     
+                            <button className="donate-btn">Donate Now</button>
+                            <div className="empty-space-btn"></div>
+                            <button className="donate-btn">Monthly Donation</button>     
                         </div>
                         <div className="donation-amount">
                             <div className="donation-amount-title">
@@ -52,6 +55,14 @@ const Donate = () => {
                             </div>
                             <div className="enter-amount-input">
                                 <input type="text" name="amount" value="Amount"></input>
+                            </div>
+                        </div>
+                        <div className="currency">
+                            <div className="currency-title">
+                                <h2>Currency</h2>
+                            </div>
+                            <div className="amount-rectangle">
+                                <h3>Other</h3>
                             </div>
                         </div>
                     </div>
