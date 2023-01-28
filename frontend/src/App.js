@@ -10,6 +10,7 @@ import Medication from "./routes/Medication";
 import Brief from "./routes/Brief";
 import Profile from "./routes/Profile";
 import Donate from "./routes/Donate";
+import Contact from "./routes/Contact";
 import Preloader from "./components/Preloader";
 import NotFound from "./routes/Notfound";
 
@@ -61,6 +62,7 @@ function App() {
             <Route path="/brief" element={<Brief />}></Route>
             <Route path="/profile" element={<Profile />}></Route>
             <Route path="/donation" element={<Donate />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
             <Route path="*" element={<NotFound />}></Route>        
           </Routes>
         </div>
