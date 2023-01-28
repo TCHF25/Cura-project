@@ -1,5 +1,6 @@
 import React   from "react";
 import '../styles/css/donate.css'
+import { ReactComponent as Gloves } from '../assets/svg/rubber-gloves.svg'
 
 
 const Donate = () => {
@@ -67,6 +68,19 @@ const Donate = () => {
                         </div>
                     </div>
                 </div>        
+            </div>
+            <div className="contact-details">
+                <Gloves className="contact-details-cover"/>
+                <div className="contact-details-left">
+                    <div className="contact-details-title">
+                        <h2>Contact Details</h2>
+                    </div>
+                    <div >
+
+                    </div>
+                </div>
+                <div className="contact-details-right"></div>
+
             </div>
         </div>
 
