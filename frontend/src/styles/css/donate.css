@@ -90,7 +90,17 @@
     position: relative;
 }
 
+.contact-details-container {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 10%;
+}
 
+.contact-details-title {
+    color: #05445E;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
 
 
 

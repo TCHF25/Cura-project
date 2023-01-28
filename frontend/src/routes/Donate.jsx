@@ -71,15 +71,31 @@ const Donate = () => {
             </div>
             <div className="contact-details">
                 <Gloves className="contact-details-cover"/>
-                <div className="contact-details-left">
-                    <div className="contact-details-title">
-                        <h2>Contact Details</h2>
+                <div className="contact-details-container">
+                    <div className="contact-details-left">
+                        <div className="contact-details-title">
+                            <h2 className="contact-details-title">Contact Details</h2>
+                        </div>
+                        <div className="contact-details-details">
+                                    <div className="full-name">
+                                        <input type="text"  className="contained"/>
+                                    </div>
+                                    <div className="full-name">
+                                        <input type="text"  className="contained"/>
+                                    </div>
+                                    <div className="full-name">
+                                        <input type="text"  className="contained"/>
+                                    </div>
+                                    <div className="full-name">
+                                        <input type="text"  className="contained"/>
+                                    </div>
+                                    <div className="full-name">
+                                        <input type="text"  className="contained"/>
+                                    </div>
+                        </div>     
                     </div>
-                    <div >
-
-                    </div>
+                    <div className="contact-details-right"></div>
                 </div>
-                <div className="contact-details-right"></div>
 
             </div>
         </div>
