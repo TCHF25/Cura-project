@@ -1,0 +1,18 @@
+.map-container {
+    width: 70%;
+    height: 80vh;
+  }
+
+.map {
+    margin: 0;
+}
+  
+.map-background {
+    background-color: #05445E;
+  }
+
+.map-title {
+    color: white;  
+    text-align: center;
+    
+}
