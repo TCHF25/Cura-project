@@ -6,7 +6,8 @@ import '../styles/css/contact.css'
 const Contact = () => {
 
     const {isLoaded} = useLoadScript({
-        googleMapsApiKey: "AIzaSyDzrxUHzhJDcAA3ggaFMLQ9ITPhR8qhvOc"});
+        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API,
+    });
     if (!isLoaded) return <div>Loading...</div>    
 
     function Map() {

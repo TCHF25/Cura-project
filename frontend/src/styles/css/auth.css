@@ -8,12 +8,13 @@
   
   .signup-section .signup-wrapper {
     width: 700px;
+    height: 750px;
     padding: 10px 0;
     margin: 0 auto;
   }
   
   .signup-section .signup-wrapper.signin-wrapper {
-    width: 90%;
+    width: 100%;
   }
   
   .signup-section .signup-wrapper .signup-nav {
